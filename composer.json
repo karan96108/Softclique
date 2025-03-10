@@ -1,0 +1,10 @@
+{
+    "name": "softclique/creative-hub",
+    "description": "Softclique Creative Hub Website",
+    "scripts": {
+        "post-install-cmd": [
+            "npm install",
+            "npm run build"
+        ]
+    }
+} 
