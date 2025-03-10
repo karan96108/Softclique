@@ -1,5 +1,5 @@
 
-import { Code, ChartBar, Globe } from 'lucide-react';
+import { Code, Globe } from 'lucide-react';
 
 const About = () => {
   const stats = [
@@ -60,7 +60,7 @@ const About = () => {
                   <h4 className="font-medium">Innovation</h4>
                 </div>
                 <div className="flex flex-col items-center text-center p-3">
-                  <ChartBar className="h-6 w-6 text-softblue mb-2" />
+                  <Globe className="h-6 w-6 text-softblue mb-2" />
                   <h4 className="font-medium">Excellence</h4>
                 </div>
                 <div className="flex flex-col items-center text-center p-3">
